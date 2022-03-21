@@ -37,6 +37,7 @@
   justify-content:space-between;
   font-size: 10px;
   background-color: #f6dc7d;
+  flex-wrap: wrap;
 }
 .question2 > div:nth-child(1) {
   background-color: #96ceb4;
@@ -47,32 +48,6 @@
 .question2 > div:nth-child(3) {
   background-color: #88d8b0;
 }
-
-/* .question2  {
-  border: 3px solid #1f2546;
-   display: flex;
-  
-  font-size: 10px;
-  color: #ffeead;
-}
-.question2 > div:nth-child(1) {
-  background-color: #96ceb4;
-}
-
-.question2 > div:nth-child(2) {
-  background-color: #ff6f69;
-}
-
-.question2 > div:nth-child(3) {
-  background-color: #88d8b0;
-}
-.Login2{
-  margin-left: auto;
-}
-.Home2{
-  margin-right: auto;
-} */
-
 /*(3) Your answer goes below here for question #3 please use the border below */
 /* border: 3px solid #e31c79; */
 .question3 {
@@ -88,27 +63,6 @@
 .question3 > div:nth-child(3) {
   background-color: #88d8b0;
 }
-
-
-/* .question3  {
-  border: 3px solid #e31c79;
-  text-align: center;
-  font-size: 10px;
-  color: #ffeead;
-}
-
-.question3 > div:nth-child(1) {
-  background-color: #96ceb4;
-}
-
-.question3 > div:nth-child(2) {
-  background-color: #ff6f69;
-}
-
-.question3 > div:nth-child(3) {
-  background-color: #88d8b0;
-} */
-
 /*(4) Your answer goes below here for question #4 please use the border below */
 /* border: 3px solid #e33618; */
 
@@ -227,41 +181,33 @@ background-color: #f6dc7d;
 /*(7) Your answer goes below here for question #7 please use the border below */
 /* border: 3px solid #139dc2; */
 .question7 {
-  border: 3px solid #139dc2;
-  display: flex;
-  justify-content:space-between;
-  background-color: #f6dc7d;
-  overflow: hidden;
-}
-.question7 > div:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-}
-.question7 > div:nth-child(3) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(4) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(5) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(6) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(7) {
-  display: flex;
-  flex-direction: column;
-}
-
+    border: 3px solid #139dc2;
+    display: grid;
+    grid-template-columns: auto auto auto auto  auto auto auto;
+    background-color: #f6dc7d;
+    overflow: hidden;
+  }
+  .question7 > div:nth-child(1) {
+    display: grid;
+  } 
+  .question7 > div:nth-child(2) {
+    display: grid;
+  }
+  .question7 > div:nth-child(3) {
+    display: grid;
+  } 
+  .question7 > div:nth-child(4) {
+    display: grid;
+  } 
+  .question7 > div:nth-child(5) {
+    display: grid;
+  } 
+  .question7 > div:nth-child(6) {
+    display: grid;
+  } 
+  .question7 > div:nth-child(7) {
+    display: grid;
+  }
 /*(8) Your answer goes below here for question #8 please use the border & background below */
 /* border: 3px solid #7b8ac7; */
 /* background-color: #bad3e2; */
